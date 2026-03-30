@@ -10,3 +10,9 @@ prop.table(table(ingere_massa))
 prop.table(table(ingere_refri))
 prop.table(table(ingere_alcool))
 prop.table(table(fruta_gosta))
+
+summary(idade)
+sd(idade)
+
+summary(n_refeicoes_dia)
+sd(n_refeicoes_dia)
