@@ -8,18 +8,11 @@ dadoslimpos$faixa_etaria = ifelse(dadoslimpos$idade < 30, "Jovem",
                             ifelse(dadoslimpos$idade < 60, "Adulto", "Idoso"))
 dadoslimpos$faixa_etaria = factor(dadoslimpos$faixa_etaria)
 
-<<<<<<< HEAD
-#table(dados$sexo)
+table(dados$sexo)
 barplot(table(dadoslimpos$faixa_etaria, dadoslimpos$sexo), beside = TRUE, legend
         = TRUE)
 hist(dadoslimpos$altura)
 boxplot(dadoslimpos$imc ~ dadoslimpos$sexo)
-=======
-# 2. Distribuição de frequências e gráficos
-
-# (PREENCHER NA BRANCH analise-graficos,)
-
-# use comandos para distribuição de frequências de sexo, gráfico de colunas para faixa_etaria por sexo, histograma de altura, boxplot de IMC por sexo
 
 minimo_idade = min(dadoslimpos$idade)
 maximo_idade = max(dadoslimpos$idade)
@@ -36,7 +29,6 @@ maximo_altura = max(dadoslimpos$altura)
 mediana_altura = median(dadoslimpos$altura)
 media_altura = mean(dadoslimpos$altura)
 desvio_altura = sd(dadoslimpos$altura)
->>>>>>> analise-medidas
 
 minimo_imc = min(dadoslimpos$imc)
 maximo_imc = max(dadoslimpos$imc)
