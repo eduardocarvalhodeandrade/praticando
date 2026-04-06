@@ -14,9 +14,24 @@ dadoslimpos$faixa_etaria = factor(dadoslimpos$faixa_etaria)
 
 # use comandos para distribuição de frequências de sexo, gráfico de colunas para faixa_etaria por sexo, histograma de altura, boxplot de IMC por sexo
 
-#3. Medidas descritivas
+minimo_idade = min(dadoslimpos$idade)
+maximo_idade = max(dadoslimpos$idade)
+mediana_idade = median(dadoslimpos$idade)
+media_idade = mean(dadoslimpos$idade)
+desvio_idade = sd(dadoslimpos$idade)
+minimo_peso = min(dadoslimpos$peso)
+maximo_peso = max(dadoslimpos$peso)
+mediana_peso = median(dadoslimpos$peso)
+media_peso = mean(dadoslimpos$peso)
+desvio_peso = sd(dadoslimpos$peso)
+minimo_altura = min(dadoslimpos$altura)
+maximo_altura = max(dadoslimpos$altura)
+mediana_altura = median(dadoslimpos$altura)
+media_altura = mean(dadoslimpos$altura)
+desvio_altura = sd(dadoslimpos$altura)
 
-# (PREENCHER NA BRANCH analise-medidas)
-
-# use comandos de cálculo de mínimo, máximo, média, mediana e desvio-padrão para idade, altura, peso e IMC
-
+minimo_imc = min(dadoslimpos$imc)
+maximo_imc = max(dadoslimpos$imc)
+mediana_imc = median(dadoslimpos$imc)
+media_imc = mean(dadoslimpos$imc)
+desvio_imc = sd(dadoslimpos$imc)
